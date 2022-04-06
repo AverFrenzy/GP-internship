@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #8771e5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    height: 55px;
+    font-size: 30px;
+    position: relative;
+}
+
+li:last-child {
+    border: none;
+}
+
+ul {
+    border: 2px solid black;
+    list-style-type: none;
+    width: 400px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

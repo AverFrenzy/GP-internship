@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackWindow  FeedbackWindow snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class="feedback-form"
+        data-testid="feedback-form"
+      >
+        <div
+          class="name-wrapper"
+        >
+          <div
+            class="add-input-btn"
+            data-testid="add-input-btn"
+          >
+            <svg
+              class="hhh"
+              id="Layer_1"
+              style="enable-background: new 0 0 512 512;"
+              version="1.1"
+              viewBox="0 0 512 512"
+              x="0px"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              y="0px"
+            >
+              <g>
+                <path
+                  d="M303.02,208.98V0H208.98v208.98H0v94.041h208.98V512h94.041V303.02H512V208.98H303.02z M480.653,271.673h-208.98v208.98
+ h-31.347v-208.98H31.347v-31.347h208.98V31.347h31.347v208.98h208.98V271.673z"
+                />
+              </g>
+            </svg>
+          </div>
+          <span
+            class="name-input"
+            data-testid="name-input"
+          >
+             undefined's feedback 
+          </span>
+        </div>
+        <div
+          class="form-item"
+          data-testid="form-item"
+        >
+          <label
+            class="rating-label"
+            for="form-phone-label"
+          >
+            Phone number
+          </label>
+          <input
+            autocomplete="off"
+            class="input-phone"
+            id="form-phone-label"
+            name="phoneNumber"
+            placeholder="Enter your phone number"
+          />
+        </div>
+        <div
+          class="form-item"
+          data-testid="form-item"
+        >
+          <div
+            class="rating-wrapper"
+          >
+            <label>
+              <input
+                class="rating-item"
+                name="rating"
+                type="radio"
+                value="1"
+              />
+              <svg
+                viewBox="0 0 576 512"
+                width="75"
+              >
+                <path
+                  class="white-fill"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+                />
+              </svg>
+            </label>
+            <label>
+              <input
+                class="rating-item"
+                name="rating"
+                type="radio"
+                value="2"
+              />
+              <svg
+                viewBox="0 0 576 512"
+                width="75"
+              >
+                <path
+                  class="white-fill"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+                />
+              </svg>
+            </label>
+            <label>
+              <input
+                class="rating-item"
+                name="rating"
+                type="radio"
+                value="3"
+              />
+              <svg
+                viewBox="0 0 576 512"
+                width="75"
+              >
+                <path
+                  class="white-fill"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+                />
+              </svg>
+            </label>
+            <label>
+              <input
+                class="rating-item"
+                name="rating"
+                type="radio"
+                value="4"
+              />
+              <svg
+                viewBox="0 0 576 512"
+                width="75"
+              >
+                <path
+                  class="white-fill"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+                />
+              </svg>
+            </label>
+            <label>
+              <input
+                class="rating-item"
+                name="rating"
+                type="radio"
+                value="5"
+              />
+              <svg
+                viewBox="0 0 576 512"
+                width="75"
+              >
+                <path
+                  class="white-fill"
+                  d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+                />
+              </svg>
+            </label>
+          </div>
+        </div>
+        <div
+          class="form-item"
+          data-testid="form-item"
+        >
+          <label
+            class="rating-label"
+            for="form-comment-label"
+          >
+            Comment
+          </label>
+          <textarea
+            class="comment-text"
+            id="form-comment-label"
+            name="feedbackComment"
+            placeholder="Leave your comment"
+          />
+        </div>
+        <button
+          class="rating-button"
+          data-testid="cancel-btn"
+        >
+          Cancel
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="feedback-form"
+      data-testid="feedback-form"
+    >
+      <div
+        class="name-wrapper"
+      >
+        <div
+          class="add-input-btn"
+          data-testid="add-input-btn"
+        >
+          <svg
+            class="hhh"
+            id="Layer_1"
+            style="enable-background: new 0 0 512 512;"
+            version="1.1"
+            viewBox="0 0 512 512"
+            x="0px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            y="0px"
+          >
+            <g>
+              <path
+                d="M303.02,208.98V0H208.98v208.98H0v94.041h208.98V512h94.041V303.02H512V208.98H303.02z M480.653,271.673h-208.98v208.98
+ h-31.347v-208.98H31.347v-31.347h208.98V31.347h31.347v208.98h208.98V271.673z"
+              />
+            </g>
+          </svg>
+        </div>
+        <span
+          class="name-input"
+          data-testid="name-input"
+        >
+           undefined's feedback 
+        </span>
+      </div>
+      <div
+        class="form-item"
+        data-testid="form-item"
+      >
+        <label
+          class="rating-label"
+          for="form-phone-label"
+        >
+          Phone number
+        </label>
+        <input
+          autocomplete="off"
+          class="input-phone"
+          id="form-phone-label"
+          name="phoneNumber"
+          placeholder="Enter your phone number"
+        />
+      </div>
+      <div
+        class="form-item"
+        data-testid="form-item"
+      >
+        <div
+          class="rating-wrapper"
+        >
+          <label>
+            <input
+              class="rating-item"
+              name="rating"
+              type="radio"
+              value="1"
+            />
+            <svg
+              viewBox="0 0 576 512"
+              width="75"
+            >
+              <path
+                class="white-fill"
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+              />
+            </svg>
+          </label>
+          <label>
+            <input
+              class="rating-item"
+              name="rating"
+              type="radio"
+              value="2"
+            />
+            <svg
+              viewBox="0 0 576 512"
+              width="75"
+            >
+              <path
+                class="white-fill"
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+              />
+            </svg>
+          </label>
+          <label>
+            <input
+              class="rating-item"
+              name="rating"
+              type="radio"
+              value="3"
+            />
+            <svg
+              viewBox="0 0 576 512"
+              width="75"
+            >
+              <path
+                class="white-fill"
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+              />
+            </svg>
+          </label>
+          <label>
+            <input
+              class="rating-item"
+              name="rating"
+              type="radio"
+              value="4"
+            />
+            <svg
+              viewBox="0 0 576 512"
+              width="75"
+            >
+              <path
+                class="white-fill"
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+              />
+            </svg>
+          </label>
+          <label>
+            <input
+              class="rating-item"
+              name="rating"
+              type="radio"
+              value="5"
+            />
+            <svg
+              viewBox="0 0 576 512"
+              width="75"
+            >
+              <path
+                class="white-fill"
+                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-56.4 0z"
+              />
+            </svg>
+          </label>
+        </div>
+      </div>
+      <div
+        class="form-item"
+        data-testid="form-item"
+      >
+        <label
+          class="rating-label"
+          for="form-comment-label"
+        >
+          Comment
+        </label>
+        <textarea
+          class="comment-text"
+          id="form-comment-label"
+          name="feedbackComment"
+          placeholder="Leave your comment"
+        />
+      </div>
+      <button
+        class="rating-button"
+        data-testid="cancel-btn"
+      >
+        Cancel
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

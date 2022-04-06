@@ -1,0 +1,141 @@
+.white-fill {
+    fill: white;
+    cursor: pointer;
+}
+
+.yellow-fill {
+    fill: yellow;
+    cursor: pointer;
+}
+
+.feedback-form {
+    margin: 50px auto;
+    padding: 20px 20px;
+    width: 550px;
+    background-color: #14de9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.delete-rating-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 40px;
+    height: 40px;
+    background-color: #f17151;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 95%;
+}
+
+.form-item:focus {
+    border: 2px solid yellow;
+}
+
+.rating-button {
+    background-color: #13e2e7;
+    border-radius: 10px;
+    width: 95%;
+    margin: 20px auto;
+    height: 55px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.rating-label {
+    align-self: flex-start;
+    padding: 0 0 4px 8px;
+    font-size: 20px;
+    color: white;
+}
+.input-extra {
+    height: 55px;
+    font-size: 26px;
+    padding-left: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-extra:focus {
+    border: 3px solid yellow;
+}
+
+.add-input-btn {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    background-color: green;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: -54px;
+}
+.name-wrapper {
+    position: relative;
+    display: flex;
+}
+.input-phone {
+    height: 55px;
+    font-size: 26px;
+    padding-left: 16px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.input-phone:focus {
+    border: 3px solid yellow;
+}
+
+.name-input {
+    position: relative;
+    font-size: 34px;
+    color: white;
+}
+
+
+.error-message {
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f17151;
+}
+
+.error-message:before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.rating-item {
+    display: none;
+}
+
+.comment-text {
+    width: 100%;
+    height: 150px;
+    font-size: 26px;
+    padding: 8px 0 0 16px;
+    border-radius: 10px;
+}
+
+.comment-text:focus {
+    border: 3px solid yellow;
+}
